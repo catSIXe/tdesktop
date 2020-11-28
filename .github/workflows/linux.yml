@@ -66,7 +66,7 @@ jobs:
           - "TDESKTOP_DISABLE_GTK_INTEGRATION"
 
     env:
-      UPLOAD_ARTIFACT: "false"
+      UPLOAD_ARTIFACT: "true"
 
     steps:
       - name: Get repository name.
